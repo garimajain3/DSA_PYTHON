@@ -1,0 +1,5 @@
+n = input()
+s = list(n)
+s = ''.join(s[::-1])
+n = int(s)
+print(n)
